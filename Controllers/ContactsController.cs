@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using ContactsAPI.Data;
 using ContactsAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ContactsAPI.Controllers
 {
+    
     [ApiController]
     [Route("api/[controller]")]
     public class ContactsController : Controller
